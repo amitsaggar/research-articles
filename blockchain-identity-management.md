@@ -44,7 +44,11 @@ in the blockchain. It uses a peer-to-peer network, which means every node in the
 
 Let us discuss some basic concept of what a blockchain is and why it can be the best alternative to manage our data credentials and authentication process:
 
+![Blockchain](/images/blockchain.jpg)
+
 A block is referring to files where data pertaining to blockchain network is permanently stored. A block is like pages of a ledger or an account book. Each time a block is completed, it gives way to other block. Data stored in blocks cannot be altered. The genesis block, genesis.Json, is the first block of a blockchain. 
+
+![Structured connections of Blockchain's blocks](/images/block.png)
 
 Merkle root is placed in the block header mentioned as “hashed list of all transactions that took place since the last created block”. “Merkling” the hashes of child nodes in the tree help verify contents for parents and generally large data structures.
 
