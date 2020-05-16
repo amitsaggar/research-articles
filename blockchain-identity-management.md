@@ -1,12 +1,19 @@
 # Blockchain Technology & Identity/Auth Management
 
-The Internet today lacks an identity protocol for identifying, authenticating people and organizations. As a result, enterprise/companies needed to build and maintain their own databases of user information. 
+The Internet today lacks an identity protocol for identifying, authenticating people and organizations. As a result, enterprise/companies needed to build and maintain their own databases of user information. The current personal data ecosystem is feudal, fragmented, and inefficient. Too much leverage is currently accorded to service providers that enroll and register end-users. Their siloed repositories of personal data exemplify the fragmentation of the ecosystem, containing data of varying qualities.
 
-### Problem statement: 
+### New Deal on Data
 
-Verification of user identity and managing same strategic relation/binding between providers/partners once user is matched, is difficult and reconcilication needs to happen for every change in contract...
+When thinking about opportunity in the financial business space, entrepreneurs may wish to consider the potential of creating these new forms of data brokers – “data exchanges” that re-empower the individual and provide new revenue opportunities
 
-## Keywords— blockchain; authentication; identity management; fintech
+
+### Classification:
+	Financial Institutions - Banks, Internet banks, Credit unions, Brokerage firms
+	Credit bureau - Equifax, Experian and TransUnion
+	Consumer tech - Credit karma, Credit sesame
+
+
+## Keywords— blockchain; authentication; identity management; fintech; data quality, reconcilliation, cost , fraud
 
 ### Introduction: 
 
