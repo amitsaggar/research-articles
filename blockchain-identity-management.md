@@ -13,7 +13,7 @@ When thinking about opportunity in the financial business space, entrepreneurs m
 	Consumer tech - Credit karma, Credit sesame
 
 
-## Keywords— blockchain; authentication; identity management; fintech; data quality, reconcilliation, cost , fraud
+## Keywords— blockchain; authentication; identity management; fintech; data quality; cost; fraud;
 
 ### Introduction: 
 
@@ -42,6 +42,17 @@ in the blockchain. It uses a peer-to-peer network, which means every node in the
 * Speed: Transactions are much faster than a centrally controlled ledger.
 * Security: Neither the node nor anyone else except the sender and the receiver can access the data sent across the blockchain. 
 
+Let us discuss some basic concept of what a blockchain is and why it can be the best alternative to manage our data credentials and authentication process:
+
+A block is referring to files where data pertaining to blockchain network is permanently stored. A block is like pages of a ledger or an account book. Each time a block is completed, it gives way to other block. Data stored in blocks cannot be altered. The genesis block, genesis.Json, is the first block of a blockchain. 
+
+Merkle root is placed in the block header mentioned as “hashed list of all transactions that took place since the last created block”. “Merkling” the hashes of child nodes in the tree help verify contents for parents and generally large data structures.
+
+The Merkle tree: The block is divided into two main categories which are the header and the body. The header has four components, a timestamp, a nonce, a hash reference to a previous block and a hashed list of all transactions that took place since the last created block. The blocks are stored in a multi-level data structure, a tree structure called the merkle tree. This structure is the key factor of the mining. The merkle tree or binary hash tree is a type of a binary tree, where the bottom of the tree contains the transactions (hashed), the intermediate tree nodes (leaves) contain the hash of the two nodes that made it, all the way till the top where it is a single hashed tree-node called the Merkle root (root hash). 
+
+![An overview of merkel tree](/images/merkel.png)
+
+
 *Depending on the consensus, there are three types of blockchain which are: public, private and consortium Blockchain*
 
 Let us discuss private blockchains as it is relvant for our problem statement.
@@ -51,5 +62,7 @@ Private Blockchains are private and open only to a consortium or organizations t
 However, the use cases of a private Blockchain are relatively small as compared to the public Blockchain. Some people may argue that private Blockchain is not of much used as the implementation concept does not differ much from that of the current systems. Nonetheless private blockchain can provide solutions to some of the problems which public blockchain cannot, such as know-your-customer (KYC), knowledge-based-auth KBA, reconcillation of data among all institutions involved as the entire network is continuously
 verifying the integrity of it. This way, there is no breach of trust and a central entity, but security is guaranteed by the strength and computing power of the entire network/institutions participating in the blockchain. 
 
+The immutable blockchain credit ledger verifies and ensures that the users, transactions, messages are legitimate, reconciled. This solution is saves cost for the service providers, efficient as
+much of the information is not duplicated across different providers, very secure as evidenced by recent large-scale personal data breaches around the world.
 
 *Note: Several blockchain startups are looking to use blockchain for online identity. A ShoCard, for example, is a digital identity that protects consumer privacy. ShoCard strives to be as easy to understand and use as showing a driver’s license; and simultaneously be so secure that a bank can rely on it. The key is that the ShoCard Identity Platform is built on a public blockchain data layer, so as a company it is not storing data or keys that could be compromised. According to ShoCard all identity data is encrypted, hashed and stored in the blockchain, where it cannot be tampered with or altered. A start-up in a similar vein that bridges the gap of both human and digital entities, is Uniquid. Uniquid allows for the authentication of devices, cloud services, and people.3 Uniquid’s aim is to provide identity and access management of connected things, as well as humans, utilizing biometric information for the latter*
