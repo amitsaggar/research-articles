@@ -24,13 +24,17 @@ Identity management on the other hand is required to simplify the user provision
 Besides server-centric identity management, federated identity management is adopted currently where
 many organizations allow users to use the same single identity on different online services. This comes in the form of single sign on or Facebook Login, Google ID etc.
 
+Another long-running problem with identity is around the verification of user identity, in which there is no one responsible and liable for vetting data, fuzzy matching logic, the same problem where federated identity projects have become stuck. The solution to this problem is probably to extend the notion of zero knowledge proof in self-sovereign identity management. This leads to a mechanism in which the prover demonstrates possession of knowledge without conveying any information apart from the fact that he or she possess the knowledge...
+
 We can also argue that identity management is a business issue but not a technology problem?
+
+### Overview of Blockchain
+
+This section highlights some basic concept of what a blockchain is and why it can be the best alternative to manage our data credentials and authentication process.
 
 Blockchain can offer a solution by decentralizing the ownership of credentials and offering a universally available protocol for verifying one’s record in an immutable chain of data. Blockchain can create a secure platform for online service providers to authenticate users. Besides, this technology could also help to instill the trust back in users. Users should have full control over who has the right to use their data and what they can do with it once they gain access. To facilitate this peer-to-peer exchange of data and consent, routing of requests, mechanisms for discovery and recording of events, a decentralized network that is publicly accessible, immutable and resistant to faults and tampering is needed. Distributed ledger technology and Blockchain is the revolution that makes this possible. 
 
 Increased transparency does not necessarily mean the end of privacy. Some cryptographic identity schemes offer strong privacy protection through identity anonymity and unlinkability of transactions.
-
-Another long-running problem with identity is around the verification of user identity, in which there is no one responsible and liable for vetting data, fuzzy matching logic, the same problem where federated identity projects have become stuck. The solution to this problem is probably to extend the notion of zero knowledge proof in self-sovereign identity management. This leads to a mechanism in which the prover demonstrates possession of knowledge without conveying any information apart from the fact that he or she possess the knowledge...
 
 A blockchain is a chain of blocks of valid transactions. Each block includes the hash to the prior block
 in the blockchain. It uses a peer-to-peer network, which means every node in the network is connected to every other in the network. After the transaction is verified, it is broadcasted to the network and is added to everyone copy of the blockchain.
